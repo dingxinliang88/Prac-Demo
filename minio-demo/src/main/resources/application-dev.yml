@@ -1,0 +1,6 @@
+minio:
+  access-key: QQefvRv3XMNMHWEqTgMx
+  secret-key: 05Gxf0TSaxo83w28m6CN7ZQegWd9h3PkMIXnYxTh
+  end-point: http://10.211.55.3:9000
+  read-path: http://10.211.55.3:9000
+  bucket: minio-demo
