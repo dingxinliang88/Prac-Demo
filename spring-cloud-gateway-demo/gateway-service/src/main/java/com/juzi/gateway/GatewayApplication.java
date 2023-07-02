@@ -1,5 +1,14 @@
-package com.juzi.gateway;/**
-  *
-  * @author codejuzi
-  */public class GatewayApplication {
+package com.juzi.gateway;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+/**
+ * @author codejuzi
+ */
+@SpringBootApplication
+public class GatewayApplication {
+    public static void main(String[] args) {
+        SpringApplication.run(GatewayApplication.class, args);
+    }
 }

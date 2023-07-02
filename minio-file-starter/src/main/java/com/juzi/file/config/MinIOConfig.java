@@ -25,7 +25,7 @@ public class MinIOConfig {
     private MinIOConfigProperties minIOConfigProperties;
 
     /**
-     * 构建minio客户段
+     * 构建minio客户端
      *
      * @return minio client
      */
