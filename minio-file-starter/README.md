@@ -35,10 +35,10 @@ Make sure to include these dependencies in your project's build configuration.
 
 	```xml
 	<dependency>
-	  <groupId>com.juzi</groupId>
-	  <artifactId>minio-file-starter</artifactId>
-	  <version>0.0.1</version>
-	</dependency>
+        <groupId>icu.codejuzi</groupId>
+        <artifactId>minio-file-starter</artifactId>
+        <version>0.0.1</version>
+    </dependency>
 	```
 
 2. Modify the configuration.

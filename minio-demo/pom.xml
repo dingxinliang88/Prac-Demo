@@ -36,7 +36,7 @@
             <artifactId>spring-boot-starter-test</artifactId>
         </dependency>
         <dependency>
-            <groupId>com.juzi</groupId>
+            <groupId>icu.codejuzi</groupId>
             <artifactId>minio-file-starter</artifactId>
             <version>0.0.1</version>
         </dependency>

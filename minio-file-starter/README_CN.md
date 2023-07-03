@@ -30,13 +30,13 @@ Minio文件启动器需要以下依赖项：
 
 1. 引入依赖
 
-	```xml
-	<dependency>
-	  <groupId>com.juzi</groupId>
-	  <artifactId>minio-file-starter</artifactId>
-	  <version>0.0.1</version>
-	</dependency>
-	```
+   ```xml
+   <dependency>
+       <groupId>icu.codejuzi</groupId>
+       <artifactId>minio-file-starter</artifactId>
+       <version>0.0.1</version>
+   </dependency>
+   ```
 
 2. 修改配置
 
