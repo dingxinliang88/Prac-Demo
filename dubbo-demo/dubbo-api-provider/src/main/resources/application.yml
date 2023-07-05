@@ -1,0 +1,18 @@
+server:
+  port: 8211
+spring:
+  application:
+    name: dubbo-api-provider
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.101:8848
+dubbo:
+  registry:
+    id: nacos-registry
+    address: nacos://192.168.0.101:8848
+  protocol:
+    name: dubbo
+    port: -1
+  scan:
+    base-packages: com.juzi.dubbo.service

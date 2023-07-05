@@ -1,0 +1,20 @@
+server:
+  port: 8221
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.0.101:8848
+        register-enabled: false
+  application:
+    name: dubbo-api-consumer
+dubbo:
+  registry:
+    id: nacos-registry
+    address: nacos://192.168.0.101:8848
+  protocol:
+    name: dubbo
+    port: -1
+
+
+
