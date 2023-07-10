@@ -1,0 +1,6 @@
+server:
+  port: 29999
+
+spring:
+  application:
+    name: joker
