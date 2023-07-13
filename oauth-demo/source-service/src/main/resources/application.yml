@@ -1,0 +1,5 @@
+server:
+  port: 63077
+spring:
+  application:
+    name: source-service
