@@ -1,0 +1,24 @@
+server:
+  port: 9999
+spring:
+  application:
+    name: email-demo
+  config:
+    import:
+      - classpath:/config/email.properties
+
+  mail:
+    host: smtp.qq.com
+    username: ${email.username}
+    password: ${email.password}
+    properties:
+      mail:
+        smtp:
+          ssl:
+            enable: true
+    from: ${email.username}
+
+  redis:
+    host: localhost
+    port: 6379
+    database: 0
